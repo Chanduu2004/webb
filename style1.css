@@ -1,0 +1,100 @@
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 0;
+  padding: 10rch;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+header {
+  background-color: #0f0f10;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  padding: 20px;
+  margin: 20px;
+}
+
+footer {
+  background-color: #181819;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+.res-photo {
+  background:url(./res.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+
+}
+.res-photo {
+  width:100%;
+}
+
+h2 {
+  color: #05030c;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 8px 0;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  nav ul {
+      text-align: center;
+  }
+
+  nav ul li {
+      display: block;
+      margin: 5px 0;
+  }
+}
+a {
+  font-size: 25px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-decoration: none;
+  padding:10px;
+  margin:0;
+  color: rgb(15, 15, 15);
+}
